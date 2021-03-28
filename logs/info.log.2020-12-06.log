@@ -1,0 +1,288 @@
+2020-12-06 12:01:06,646 - __main__ - INFO - 50-E:\uiautotest\result
+2020-12-06 12:01:06,662 - __main__ - INFO - 68-resultPath E:\uiautotest\result\report.html
+2020-12-06 12:01:06,662 - __main__ - INFO - 69-caseListFile E:\uiautotest\caselist.txt
+2020-12-06 12:01:06,662 - __main__ - INFO - 70-caseList []
+2020-12-06 12:01:06,662 - __main__ - INFO - 71-caseFile E:\uiautotest\testCase
+2020-12-06 12:01:06,662 - __main__ - INFO - 100-test01case.py
+2020-12-06 12:01:07,058 - __main__ - INFO - 105-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-06 12:01:07,058 - __main__ - INFO - 142-[Errno 2] No such file or directory: 'E:\\uiautotest\\result\\report.html'
+2020-12-06 12:01:07,075 - __main__ - INFO - 145-*********TEST END*********
+2020-12-06 12:01:07,075 - __main__ - INFO - 152-邮件发送开关配置关闭，请打开开关后可正常自动发送测试报告
+2020-12-06 12:08:50,186 - __main__ - INFO - 50-E:\uiautotest\result
+2020-12-06 12:08:50,186 - __main__ - INFO - 66-resultPath E:\uiautotest\result\report.html
+2020-12-06 12:08:50,186 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2020-12-06 12:08:50,186 - __main__ - INFO - 68-caseList []
+2020-12-06 12:08:50,186 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2020-12-06 12:08:50,186 - __main__ - INFO - 98-test01case.py
+2020-12-06 12:08:50,268 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-06 12:08:50,269 - __main__ - INFO - 140-[Errno 2] No such file or directory: 'E:\\uiautotest\\result\\report.html'
+2020-12-06 12:08:50,269 - __main__ - INFO - 143-*********TEST END*********
+2020-12-06 14:52:54,414 - __main__ - INFO - 50-E:\uiautotest\report
+2020-12-06 14:52:54,425 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2020-12-06 14:52:54,425 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2020-12-06 14:52:54,425 - __main__ - INFO - 68-caseList []
+2020-12-06 14:52:54,425 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2020-12-06 14:52:54,425 - __main__ - INFO - 98-test01case.py
+2020-12-06 14:52:55,063 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-06 14:52:56,029 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55229/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-12-06 14:52:56,043 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:55229
+2020-12-06 14:52:59,049 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55229 "POST /session HTTP/1.1" 200 716
+2020-12-06 14:52:59,050 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:52:59,050 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55229/session/78a05406e6202586a3833172b57eb4f1/url {"url": "http://www.baidu.com"}
+2020-12-06 14:52:59,438 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55229 "POST /session/78a05406e6202586a3833172b57eb4f1/url HTTP/1.1" 200 14
+2020-12-06 14:52:59,438 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:52:59,438 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55229/session/78a05406e6202586a3833172b57eb4f1/element {"using": "css selector", "value": "[id=\"kw\"]"}
+2020-12-06 14:52:59,478 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55229 "POST /session/78a05406e6202586a3833172b57eb4f1/element HTTP/1.1" 200 88
+2020-12-06 14:52:59,478 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:52:59,478 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55229/session/78a05406e6202586a3833172b57eb4f1/element/8b47c232-a6b8-4a03-a1fd-24bbacd77e25/value {"text": "python+selenium", "value": ["p", "y", "t", "h", "o", "n", "+", "s", "e", "l", "e", "n", "i", "u", "m"], "id": "8b47c232-a6b8-4a03-a1fd-24bbacd77e25"}
+2020-12-06 14:52:59,567 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55229 "POST /session/78a05406e6202586a3833172b57eb4f1/element/8b47c232-a6b8-4a03-a1fd-24bbacd77e25/value HTTP/1.1" 200 14
+2020-12-06 14:52:59,567 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:52:59,568 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55229/session/78a05406e6202586a3833172b57eb4f1/element {"using": "css selector", "value": "[id=\"su\"]"}
+2020-12-06 14:52:59,577 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55229 "POST /session/78a05406e6202586a3833172b57eb4f1/element HTTP/1.1" 200 88
+2020-12-06 14:52:59,577 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:52:59,577 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55229/session/78a05406e6202586a3833172b57eb4f1/element/15a15a81-c9ea-4cf2-b1b6-2be141d68d0f/click {"id": "15a15a81-c9ea-4cf2-b1b6-2be141d68d0f"}
+2020-12-06 14:53:00,908 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55229 "POST /session/78a05406e6202586a3833172b57eb4f1/element/15a15a81-c9ea-4cf2-b1b6-2be141d68d0f/click HTTP/1.1" 200 14
+2020-12-06 14:53:00,908 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:53:00,909 - selenium.webdriver.remote.remote_connection - DEBUG - 388-DELETE http://127.0.0.1:55229/session/78a05406e6202586a3833172b57eb4f1 {}
+2020-12-06 14:53:00,938 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55229 "DELETE /session/78a05406e6202586a3833172b57eb4f1 HTTP/1.1" 200 14
+2020-12-06 14:53:00,938 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:53:03,033 - __main__ - INFO - 140-'TestBaiduCase' object has no attribute 'case_name'
+2020-12-06 14:53:03,033 - __main__ - INFO - 143-*********TEST END*********
+2020-12-06 14:53:04,029 - controler.sendemail - INFO - 51-邮件发送成功
+2020-12-06 14:54:05,552 - __main__ - INFO - 50-E:\uiautotest\report
+2020-12-06 14:54:05,552 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2020-12-06 14:54:05,552 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2020-12-06 14:54:05,552 - __main__ - INFO - 68-caseList []
+2020-12-06 14:54:05,552 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2020-12-06 14:54:05,552 - __main__ - INFO - 98-test01case.py
+2020-12-06 14:54:05,636 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-06 14:54:06,545 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55350/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-12-06 14:54:06,545 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:55350
+2020-12-06 14:54:09,241 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55350 "POST /session HTTP/1.1" 200 716
+2020-12-06 14:54:09,242 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:54:09,242 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55350/session/b43c84822c82d9f72e69c512f3111c03/url {"url": "http://www.baidu.com"}
+2020-12-06 14:54:09,456 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55350 "POST /session/b43c84822c82d9f72e69c512f3111c03/url HTTP/1.1" 200 14
+2020-12-06 14:54:09,457 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:54:09,458 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55350/session/b43c84822c82d9f72e69c512f3111c03/element {"using": "css selector", "value": "[id=\"kw\"]"}
+2020-12-06 14:54:09,469 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55350 "POST /session/b43c84822c82d9f72e69c512f3111c03/element HTTP/1.1" 200 88
+2020-12-06 14:54:09,469 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:54:09,469 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55350/session/b43c84822c82d9f72e69c512f3111c03/element/714ccf34-d504-44a6-a615-ced39952920f/value {"text": "python+selenium", "value": ["p", "y", "t", "h", "o", "n", "+", "s", "e", "l", "e", "n", "i", "u", "m"], "id": "714ccf34-d504-44a6-a615-ced39952920f"}
+2020-12-06 14:54:09,545 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55350 "POST /session/b43c84822c82d9f72e69c512f3111c03/element/714ccf34-d504-44a6-a615-ced39952920f/value HTTP/1.1" 200 14
+2020-12-06 14:54:09,545 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:54:09,546 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55350/session/b43c84822c82d9f72e69c512f3111c03/element {"using": "css selector", "value": "[id=\"su\"]"}
+2020-12-06 14:54:09,554 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55350 "POST /session/b43c84822c82d9f72e69c512f3111c03/element HTTP/1.1" 200 88
+2020-12-06 14:54:09,554 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:54:09,555 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:55350/session/b43c84822c82d9f72e69c512f3111c03/element/01cb1699-ff1e-4fc3-affc-362dc03db339/click {"id": "01cb1699-ff1e-4fc3-affc-362dc03db339"}
+2020-12-06 14:54:10,846 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55350 "POST /session/b43c84822c82d9f72e69c512f3111c03/element/01cb1699-ff1e-4fc3-affc-362dc03db339/click HTTP/1.1" 200 14
+2020-12-06 14:54:10,846 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:54:10,847 - selenium.webdriver.remote.remote_connection - DEBUG - 388-DELETE http://127.0.0.1:55350/session/b43c84822c82d9f72e69c512f3111c03 {}
+2020-12-06 14:54:10,876 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:55350 "DELETE /session/b43c84822c82d9f72e69c512f3111c03 HTTP/1.1" 200 14
+2020-12-06 14:54:10,877 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 14:54:14,063 - __main__ - INFO - 140-'TestBaiduCase' object has no attribute 'case_name'
+2020-12-06 14:54:14,063 - __main__ - INFO - 143-*********TEST END*********
+2020-12-06 14:54:15,106 - controler.sendemail - INFO - 51-邮件发送成功
+2020-12-06 15:37:39,101 - __main__ - INFO - 50-E:\uiautotest\report
+2020-12-06 15:37:39,101 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2020-12-06 15:37:39,102 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2020-12-06 15:37:39,102 - __main__ - INFO - 68-caseList []
+2020-12-06 15:37:39,102 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2020-12-06 15:37:39,102 - __main__ - INFO - 98-test01case.py
+2020-12-06 15:37:39,185 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-06 15:37:40,023 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:56687/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-12-06 15:37:40,023 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:56687
+2020-12-06 15:37:42,761 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:56687 "POST /session HTTP/1.1" 200 716
+2020-12-06 15:37:42,761 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 15:37:42,761 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:56687/session/0533ca871b54fb657939a09399d6d03d/url {"url": "http://www.baidu.com"}
+2020-12-06 15:37:43,124 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:56687 "POST /session/0533ca871b54fb657939a09399d6d03d/url HTTP/1.1" 200 14
+2020-12-06 15:37:43,124 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 15:37:43,124 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:56687/session/0533ca871b54fb657939a09399d6d03d/element {"using": "css selector", "value": "[id=\"kw\"]"}
+2020-12-06 15:37:43,135 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:56687 "POST /session/0533ca871b54fb657939a09399d6d03d/element HTTP/1.1" 200 88
+2020-12-06 15:37:43,135 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 15:37:43,135 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:56687/session/0533ca871b54fb657939a09399d6d03d/element/2ab6e6a7-d5e0-456d-98b0-36600c195dee/value {"text": "python+selenium", "value": ["p", "y", "t", "h", "o", "n", "+", "s", "e", "l", "e", "n", "i", "u", "m"], "id": "2ab6e6a7-d5e0-456d-98b0-36600c195dee"}
+2020-12-06 15:37:43,217 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:56687 "POST /session/0533ca871b54fb657939a09399d6d03d/element/2ab6e6a7-d5e0-456d-98b0-36600c195dee/value HTTP/1.1" 200 14
+2020-12-06 15:37:43,218 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 15:37:43,218 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:56687/session/0533ca871b54fb657939a09399d6d03d/element {"using": "css selector", "value": "[id=\"su\"]"}
+2020-12-06 15:37:43,227 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:56687 "POST /session/0533ca871b54fb657939a09399d6d03d/element HTTP/1.1" 200 88
+2020-12-06 15:37:43,227 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 15:37:43,227 - selenium.webdriver.remote.remote_connection - DEBUG - 388-POST http://127.0.0.1:56687/session/0533ca871b54fb657939a09399d6d03d/element/91221e25-51e2-4d46-878c-cc1cd67f59b5/click {"id": "91221e25-51e2-4d46-878c-cc1cd67f59b5"}
+2020-12-06 15:37:45,059 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:56687 "POST /session/0533ca871b54fb657939a09399d6d03d/element/91221e25-51e2-4d46-878c-cc1cd67f59b5/click HTTP/1.1" 200 14
+2020-12-06 15:37:45,060 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 15:37:45,060 - selenium.webdriver.remote.remote_connection - DEBUG - 388-DELETE http://127.0.0.1:56687/session/0533ca871b54fb657939a09399d6d03d {}
+2020-12-06 15:37:45,097 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:56687 "DELETE /session/0533ca871b54fb657939a09399d6d03d HTTP/1.1" 200 14
+2020-12-06 15:37:45,098 - selenium.webdriver.remote.remote_connection - DEBUG - 440-Finished Request
+2020-12-06 15:37:47,202 - __main__ - INFO - 140-'TestBaiduCase' object has no attribute 'case_name'
+2020-12-06 15:37:47,202 - __main__ - INFO - 143-*********TEST END*********
+2020-12-06 15:37:48,150 - controler.sendemail - INFO - 51-邮件发送成功
+2020-12-06 17:18:32,405 - __main__ - INFO - 50-E:\uiautotest\report
+2020-12-06 17:18:32,405 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2020-12-06 17:18:32,406 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2020-12-06 17:18:32,406 - __main__ - INFO - 68-caseList []
+2020-12-06 17:18:32,406 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2020-12-06 17:18:32,406 - __main__ - INFO - 98-test002case.py
+2020-12-06 17:18:32,538 - root - INFO - 45-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2020-12-06 17:18:32,538 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserLogin_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserLogin_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserLogin_2 testMethod=test01case>]>]>]>]
+2020-12-06 17:18:32,539 - root - INFO - 45-
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:18:32,539 - root - INFO - 45-user_info_v1测试开始前准备
+2020-12-06 17:18:32,540 - root - INFO - 45-案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2020-12-06 17:18:32,540 - root - INFO - 45-接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2020-12-06 17:18:32,541 - root - INFO - 45-接口请求参数data2：{}
+2020-12-06 17:18:32,544 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2020-12-06 17:18:32,552 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2020-12-06 17:18:32,553 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2020-12-06 17:18:32,553 - root - INFO - 45-接口返回数据：<class 'dict'>
+2020-12-06 17:18:32,554 - root - INFO - 45-测试结果：None
+2020-12-06 17:18:32,554 - root - INFO - 45-user_info_v1测试结束，输出log完结
+
+2020-12-06 17:18:32,555 - root - INFO - 45-
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:18:32,555 - root - INFO - 45-
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:18:32,556 - root - INFO - 45-user_info_v2测试开始前准备
+2020-12-06 17:18:32,557 - root - INFO - 45-案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2020-12-06 17:18:32,557 - root - INFO - 45-接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2020-12-06 17:18:32,558 - root - INFO - 45-接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2020-12-06 17:18:32,559 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2020-12-06 17:18:32,561 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 74
+2020-12-06 17:18:32,562 - controler.getresponse - INFO - 25-请求的response:{'city': 'shanghai', 'passwd': 'mima123', 'username': 'luonan'}
+2020-12-06 17:18:32,562 - root - INFO - 45-接口返回数据：<class 'dict'>
+2020-12-06 17:18:32,563 - root - INFO - 45-user_info_v2测试结束，输出log完结
+
+2020-12-06 17:18:32,564 - root - INFO - 45-
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:18:32,564 - root - INFO - 45-
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:18:32,565 - root - INFO - 45-user_info_v3测试开始前准备
+2020-12-06 17:18:32,565 - root - INFO - 45-案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2020-12-06 17:18:32,566 - root - INFO - 45-接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2020-12-06 17:18:32,566 - root - INFO - 45-接口请求参数data2：{}
+2020-12-06 17:18:32,568 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2020-12-06 17:18:32,570 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2020-12-06 17:18:32,570 - controler.getresponse - INFO - 31-请求的response:None
+2020-12-06 17:18:32,570 - root - INFO - 45-接口返回数据：<class 'NoneType'>
+2020-12-06 17:18:32,571 - root - INFO - 45-user_info_v3测试结束，输出log完结
+
+2020-12-06 17:18:32,572 - root - INFO - 45-
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:18:32,572 - __main__ - INFO - 140-a bytes-like object is required, not 'str'
+2020-12-06 17:18:32,572 - __main__ - INFO - 143-*********TEST END*********
+2020-12-06 17:18:33,558 - controler.sendemail - INFO - 51-邮件发送成功
+2020-12-06 17:20:17,407 - __main__ - INFO - 50-E:\uiautotest\report
+2020-12-06 17:20:17,408 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2020-12-06 17:20:17,408 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2020-12-06 17:20:17,408 - __main__ - INFO - 68-caseList []
+2020-12-06 17:20:17,408 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2020-12-06 17:20:17,408 - __main__ - INFO - 98-test002case.py
+2020-12-06 17:20:17,526 - test002case - INFO - 25-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2020-12-06 17:20:17,526 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserLogin_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserLogin_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserLogin_2 testMethod=test01case>]>]>]>]
+2020-12-06 17:20:17,527 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:20:17,527 - test002case - INFO - 62-user_info_v1测试开始前准备
+2020-12-06 17:20:17,527 - test002case - INFO - 64-案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2020-12-06 17:20:17,527 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2020-12-06 17:20:17,527 - test002case - INFO - 82-接口请求参数data2：{}
+2020-12-06 17:20:17,531 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2020-12-06 17:20:17,538 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2020-12-06 17:20:17,539 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2020-12-06 17:20:17,539 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2020-12-06 17:20:17,539 - test002case - INFO - 90-测试结果：None
+2020-12-06 17:20:17,539 - test002case - INFO - 67-user_info_v1测试结束，输出log完结
+
+2020-12-06 17:20:17,539 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:20:17,539 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:20:17,540 - test002case - INFO - 62-user_info_v2测试开始前准备
+2020-12-06 17:20:17,540 - test002case - INFO - 64-案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2020-12-06 17:20:17,540 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2020-12-06 17:20:17,540 - test002case - INFO - 82-接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2020-12-06 17:20:17,541 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2020-12-06 17:20:17,543 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 74
+2020-12-06 17:20:17,544 - controler.getresponse - INFO - 25-请求的response:{'city': 'shanghai', 'passwd': 'mima123', 'username': 'luonan'}
+2020-12-06 17:20:17,544 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2020-12-06 17:20:17,544 - test002case - INFO - 67-user_info_v2测试结束，输出log完结
+
+2020-12-06 17:20:17,544 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:20:17,544 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:20:17,544 - test002case - INFO - 62-user_info_v3测试开始前准备
+2020-12-06 17:20:17,545 - test002case - INFO - 64-案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2020-12-06 17:20:17,545 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2020-12-06 17:20:17,545 - test002case - INFO - 82-接口请求参数data2：{}
+2020-12-06 17:20:17,546 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2020-12-06 17:20:17,548 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2020-12-06 17:20:17,548 - controler.getresponse - INFO - 31-请求的response:None
+2020-12-06 17:20:17,548 - test002case - INFO - 85-接口返回数据：<class 'NoneType'>
+2020-12-06 17:20:17,548 - test002case - INFO - 67-user_info_v3测试结束，输出log完结
+
+2020-12-06 17:20:17,549 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:20:17,549 - __main__ - INFO - 140-a bytes-like object is required, not 'str'
+2020-12-06 17:20:17,549 - __main__ - INFO - 143-*********TEST END*********
+2020-12-06 17:20:18,569 - controler.sendemail - INFO - 51-邮件发送成功
+2020-12-06 17:21:21,068 - __main__ - INFO - 50-E:\uiautotest\report
+2020-12-06 17:21:21,068 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2020-12-06 17:21:21,068 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2020-12-06 17:21:21,068 - __main__ - INFO - 68-caseList []
+2020-12-06 17:21:21,068 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2020-12-06 17:21:21,068 - __main__ - INFO - 98-test002case.py
+2020-12-06 17:21:21,181 - test002case - INFO - 25-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2020-12-06 17:21:21,182 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserLogin_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserLogin_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserLogin_2 testMethod=test01case>]>]>]>]
+2020-12-06 17:21:21,183 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:21:21,183 - test002case - INFO - 62-user_info_v1测试开始前准备
+2020-12-06 17:21:21,183 - test002case - INFO - 64-案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2020-12-06 17:21:21,183 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2020-12-06 17:21:21,183 - test002case - INFO - 82-接口请求参数data2：{}
+2020-12-06 17:21:21,186 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2020-12-06 17:21:21,194 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2020-12-06 17:21:21,195 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2020-12-06 17:21:21,195 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2020-12-06 17:21:21,195 - test002case - INFO - 90-测试结果：None
+2020-12-06 17:21:21,195 - test002case - INFO - 67-user_info_v1测试结束，输出log完结
+
+2020-12-06 17:21:21,196 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:21:21,196 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:21:21,196 - test002case - INFO - 62-user_info_v2测试开始前准备
+2020-12-06 17:21:21,196 - test002case - INFO - 64-案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2020-12-06 17:21:21,196 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2020-12-06 17:21:21,196 - test002case - INFO - 82-接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2020-12-06 17:21:21,197 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2020-12-06 17:21:21,200 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 74
+2020-12-06 17:21:21,201 - controler.getresponse - INFO - 25-请求的response:{'city': 'shanghai', 'passwd': 'mima123', 'username': 'luonan'}
+2020-12-06 17:21:21,201 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2020-12-06 17:21:21,201 - test002case - INFO - 67-user_info_v2测试结束，输出log完结
+
+2020-12-06 17:21:21,201 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:21:21,201 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:21:21,201 - test002case - INFO - 62-user_info_v3测试开始前准备
+2020-12-06 17:21:21,201 - test002case - INFO - 64-案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2020-12-06 17:21:21,201 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2020-12-06 17:21:21,202 - test002case - INFO - 82-接口请求参数data2：{}
+2020-12-06 17:21:21,203 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2020-12-06 17:21:21,205 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2020-12-06 17:21:21,206 - controler.getresponse - INFO - 31-请求的response:None
+2020-12-06 17:21:21,206 - test002case - INFO - 85-接口返回数据：<class 'NoneType'>
+2020-12-06 17:21:21,206 - test002case - INFO - 67-user_info_v3测试结束，输出log完结
+
+2020-12-06 17:21:21,206 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:21:21,207 - __main__ - INFO - 143-*********TEST END*********
+2020-12-06 17:21:22,268 - controler.sendemail - INFO - 51-邮件发送成功

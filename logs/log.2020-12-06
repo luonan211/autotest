@@ -1,0 +1,233 @@
+2020-12-06 17:11:29,631-logger.py[line:45]-INFO: ---测试开始----
+2020-12-06 17:11:29,632-logger.py[line:45]-INFO: 操作步骤1,2,3
+2020-12-06 17:11:29,660-logger.py[line:49]-WARNING: ----测试结束----
+2020-12-06 17:12:29,920-logger.py[line:45]-INFO: 测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2020-12-06 17:12:29,921-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:12:29,923-logger.py[line:45]-INFO: user_info_v1测试开始前准备
+2020-12-06 17:12:29,924-logger.py[line:45]-INFO: 案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2020-12-06 17:12:29,925-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050
+2020-12-06 17:12:29,925-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:12:29,938-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:12:29,939-logger.py[line:45]-INFO: user_info_v1测试结束，输出log完结
+
+2020-12-06 17:12:29,941-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:12:29,942-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:12:29,942-logger.py[line:45]-INFO: user_info_v2测试开始前准备
+2020-12-06 17:12:29,943-logger.py[line:45]-INFO: 案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2020-12-06 17:12:29,944-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050
+2020-12-06 17:12:29,945-logger.py[line:45]-INFO: 接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2020-12-06 17:12:29,951-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:12:29,951-logger.py[line:45]-INFO: user_info_v2测试结束，输出log完结
+
+2020-12-06 17:12:29,953-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:12:29,953-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:12:29,954-logger.py[line:45]-INFO: user_info_v3测试开始前准备
+2020-12-06 17:12:29,954-logger.py[line:45]-INFO: 案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2020-12-06 17:12:29,955-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050
+2020-12-06 17:12:29,955-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:12:29,960-logger.py[line:45]-INFO: 接口返回数据：<class 'NoneType'>
+2020-12-06 17:12:29,961-logger.py[line:45]-INFO: user_info_v3测试结束，输出log完结
+
+2020-12-06 17:12:29,962-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:13:25,501-logger.py[line:45]-INFO: 测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2020-12-06 17:13:25,503-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:13:25,504-logger.py[line:45]-INFO: user_info_v1测试开始前准备
+2020-12-06 17:13:25,504-logger.py[line:45]-INFO: 案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2020-12-06 17:13:25,505-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2020-12-06 17:13:25,506-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:13:25,519-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:13:25,520-logger.py[line:45]-INFO: user_info_v1测试结束，输出log完结
+
+2020-12-06 17:13:25,521-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:13:25,522-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:13:25,523-logger.py[line:45]-INFO: user_info_v2测试开始前准备
+2020-12-06 17:13:25,523-logger.py[line:45]-INFO: 案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2020-12-06 17:13:25,524-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2020-12-06 17:13:25,524-logger.py[line:45]-INFO: 接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2020-12-06 17:13:25,529-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:13:25,530-logger.py[line:45]-INFO: user_info_v2测试结束，输出log完结
+
+2020-12-06 17:13:25,531-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:13:25,531-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:13:25,532-logger.py[line:45]-INFO: user_info_v3测试开始前准备
+2020-12-06 17:13:25,533-logger.py[line:45]-INFO: 案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2020-12-06 17:13:25,533-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2020-12-06 17:13:25,534-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:13:25,538-logger.py[line:45]-INFO: 接口返回数据：<class 'NoneType'>
+2020-12-06 17:13:25,539-logger.py[line:45]-INFO: user_info_v3测试结束，输出log完结
+
+2020-12-06 17:13:25,540-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:15:38,936-logger.py[line:45]-INFO: 测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2020-12-06 17:15:38,937-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:15:38,938-logger.py[line:45]-INFO: user_info_v1测试开始前准备
+2020-12-06 17:15:38,939-logger.py[line:45]-INFO: 案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2020-12-06 17:15:38,939-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2020-12-06 17:15:38,940-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:15:38,953-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:15:38,953-logger.py[line:45]-INFO: user_info_v1测试结束，输出log完结
+
+2020-12-06 17:15:38,955-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:15:38,956-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:15:38,957-logger.py[line:45]-INFO: user_info_v2测试开始前准备
+2020-12-06 17:15:38,957-logger.py[line:45]-INFO: 案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2020-12-06 17:15:38,958-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2020-12-06 17:15:38,959-logger.py[line:45]-INFO: 接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2020-12-06 17:15:38,964-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:15:38,964-logger.py[line:45]-INFO: user_info_v2测试结束，输出log完结
+
+2020-12-06 17:15:38,966-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:15:38,966-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:15:38,968-logger.py[line:45]-INFO: user_info_v3测试开始前准备
+2020-12-06 17:15:38,968-logger.py[line:45]-INFO: 案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2020-12-06 17:15:38,969-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2020-12-06 17:15:38,970-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:15:38,976-logger.py[line:45]-INFO: 接口返回数据：<class 'NoneType'>
+2020-12-06 17:15:38,976-logger.py[line:45]-INFO: user_info_v3测试结束，输出log完结
+
+2020-12-06 17:15:38,977-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:16:47,671-logger.py[line:45]-INFO: 测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2020-12-06 17:16:47,673-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:16:47,675-logger.py[line:45]-INFO: user_info_v1测试开始前准备
+2020-12-06 17:16:47,676-logger.py[line:45]-INFO: 案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2020-12-06 17:16:47,677-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2020-12-06 17:16:47,678-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:16:47,695-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:16:47,696-logger.py[line:45]-INFO: user_info_v1测试结束，输出log完结
+
+2020-12-06 17:16:47,697-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:16:47,698-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:16:47,699-logger.py[line:45]-INFO: user_info_v2测试开始前准备
+2020-12-06 17:16:47,699-logger.py[line:45]-INFO: 案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2020-12-06 17:16:47,700-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2020-12-06 17:16:47,701-logger.py[line:45]-INFO: 接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2020-12-06 17:16:47,706-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:16:47,707-logger.py[line:45]-INFO: user_info_v2测试结束，输出log完结
+
+2020-12-06 17:16:47,709-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:16:47,710-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:16:47,711-logger.py[line:45]-INFO: user_info_v3测试开始前准备
+2020-12-06 17:16:47,712-logger.py[line:45]-INFO: 案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2020-12-06 17:16:47,712-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2020-12-06 17:16:47,713-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:16:47,717-logger.py[line:45]-INFO: 接口返回数据：<class 'NoneType'>
+2020-12-06 17:16:47,718-logger.py[line:45]-INFO: user_info_v3测试结束，输出log完结
+
+2020-12-06 17:16:47,719-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:17:57,560-logger.py[line:45]-INFO: 测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2020-12-06 17:17:57,562-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:17:57,563-logger.py[line:45]-INFO: user_info_v1测试开始前准备
+2020-12-06 17:17:57,563-logger.py[line:45]-INFO: 案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2020-12-06 17:17:57,564-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2020-12-06 17:17:57,565-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:17:57,578-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:17:57,579-logger.py[line:45]-INFO: 测试结果：None
+2020-12-06 17:17:57,579-logger.py[line:45]-INFO: user_info_v1测试结束，输出log完结
+
+2020-12-06 17:17:57,580-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:17:57,580-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:17:57,581-logger.py[line:45]-INFO: user_info_v2测试开始前准备
+2020-12-06 17:17:57,582-logger.py[line:45]-INFO: 案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2020-12-06 17:17:57,583-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2020-12-06 17:17:57,583-logger.py[line:45]-INFO: 接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2020-12-06 17:17:57,588-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:17:57,589-logger.py[line:45]-INFO: user_info_v2测试结束，输出log完结
+
+2020-12-06 17:17:57,591-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:17:57,591-logger.py[line:45]-INFO: 
+=======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py开始==========
+2020-12-06 17:17:57,592-logger.py[line:45]-INFO: user_info_v3测试开始前准备
+2020-12-06 17:17:57,593-logger.py[line:45]-INFO: 案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2020-12-06 17:17:57,593-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2020-12-06 17:17:57,594-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:17:57,599-logger.py[line:45]-INFO: 接口返回数据：<class 'NoneType'>
+2020-12-06 17:17:57,599-logger.py[line:45]-INFO: user_info_v3测试结束，输出log完结
+
+2020-12-06 17:17:57,601-logger.py[line:45]-INFO: 
+======测试类D:\PyCharm\PyCharm Community Edition 2018.3.5\helpers\pycharm\_jb_unittest_runner.py结束======
+2020-12-06 17:18:32,538-logger.py[line:45]-INFO: 测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2020-12-06 17:18:32,539-logger.py[line:45]-INFO: 
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:18:32,539-logger.py[line:45]-INFO: user_info_v1测试开始前准备
+2020-12-06 17:18:32,540-logger.py[line:45]-INFO: 案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2020-12-06 17:18:32,540-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2020-12-06 17:18:32,541-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:18:32,553-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:18:32,554-logger.py[line:45]-INFO: 测试结果：None
+2020-12-06 17:18:32,554-logger.py[line:45]-INFO: user_info_v1测试结束，输出log完结
+
+2020-12-06 17:18:32,555-logger.py[line:45]-INFO: 
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:18:32,555-logger.py[line:45]-INFO: 
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:18:32,556-logger.py[line:45]-INFO: user_info_v2测试开始前准备
+2020-12-06 17:18:32,557-logger.py[line:45]-INFO: 案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2020-12-06 17:18:32,557-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2020-12-06 17:18:32,558-logger.py[line:45]-INFO: 接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2020-12-06 17:18:32,562-logger.py[line:45]-INFO: 接口返回数据：<class 'dict'>
+2020-12-06 17:18:32,563-logger.py[line:45]-INFO: user_info_v2测试结束，输出log完结
+
+2020-12-06 17:18:32,564-logger.py[line:45]-INFO: 
+======测试类E:/uiautotest/runall.py结束======
+2020-12-06 17:18:32,564-logger.py[line:45]-INFO: 
+=======测试类E:/uiautotest/runall.py开始==========
+2020-12-06 17:18:32,565-logger.py[line:45]-INFO: user_info_v3测试开始前准备
+2020-12-06 17:18:32,565-logger.py[line:45]-INFO: 案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2020-12-06 17:18:32,566-logger.py[line:45]-INFO: 接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2020-12-06 17:18:32,566-logger.py[line:45]-INFO: 接口请求参数data2：{}
+2020-12-06 17:18:32,570-logger.py[line:45]-INFO: 接口返回数据：<class 'NoneType'>
+2020-12-06 17:18:32,571-logger.py[line:45]-INFO: user_info_v3测试结束，输出log完结
+
+2020-12-06 17:18:32,572-logger.py[line:45]-INFO: 
+======测试类E:/uiautotest/runall.py结束======

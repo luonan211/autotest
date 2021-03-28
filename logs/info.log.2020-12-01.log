@@ -1,0 +1,57 @@
+2020-12-01 23:30:33,034 - __main__ - INFO - E:\uiautotest\result
+2020-12-01 23:30:33,045 - __main__ - INFO - resultPath E:\uiautotest\result\report.html
+2020-12-01 23:30:33,045 - __main__ - INFO - caseListFile E:\uiautotest\caselist.txt
+2020-12-01 23:30:33,045 - __main__ - INFO - caseList []
+2020-12-01 23:30:33,045 - __main__ - INFO - caseFile E:\uiautotest\testCase
+2020-12-01 23:30:33,045 - __main__ - INFO - test01case.py
+2020-12-01 23:30:33,130 - __main__ - INFO - suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-01 23:30:33,130 - __main__ - INFO - [Errno 2] No such file or directory: 'E:\\uiautotest\\result\\report.html'
+2020-12-01 23:30:33,131 - __main__ - INFO - *********TEST END*********
+2020-12-01 23:31:25,909 - __main__ - INFO - E:\uiautotest\result
+2020-12-01 23:31:25,909 - __main__ - INFO - resultPath E:\uiautotest\result\report.html
+2020-12-01 23:31:25,909 - __main__ - INFO - caseListFile E:\uiautotest\caselist.txt
+2020-12-01 23:31:25,909 - __main__ - INFO - caseList []
+2020-12-01 23:31:25,909 - __main__ - INFO - caseFile E:\uiautotest\testCase
+2020-12-01 23:31:25,909 - __main__ - INFO - test01case.py
+2020-12-01 23:31:25,994 - __main__ - INFO - suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-01 23:31:25,994 - __main__ - INFO - [Errno 2] No such file or directory: 'E:\\uiautotest\\result\\report.html'
+2020-12-01 23:31:25,994 - __main__ - INFO - *********TEST END*********
+2020-12-01 23:33:47,966 - __main__ - INFO - E:\uiautotest\result
+2020-12-01 23:33:47,966 - __main__ - INFO - resultPath E:\uiautotest\result\report.html
+2020-12-01 23:33:47,966 - __main__ - INFO - caseListFile E:\uiautotest\caselist.txt
+2020-12-01 23:33:47,966 - __main__ - INFO - caseList []
+2020-12-01 23:33:47,967 - __main__ - INFO - caseFile E:\uiautotest\testCase
+2020-12-01 23:33:47,967 - __main__ - INFO - test01case.py
+2020-12-01 23:33:48,051 - __main__ - INFO - suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-01 23:33:48,052 - __main__ - INFO - [Errno 2] No such file or directory: 'E:\\uiautotest\\result\\report.html'
+2020-12-01 23:33:48,052 - __main__ - INFO - *********TEST END*********
+2020-12-01 23:35:29,518 - __main__ - INFO - E:\uiautotest\result
+2020-12-01 23:35:29,519 - __main__ - INFO - resultPath E:\uiautotest\result\report.html
+2020-12-01 23:35:29,519 - __main__ - INFO - caseListFile E:\uiautotest\caselist.txt
+2020-12-01 23:35:29,519 - __main__ - INFO - caseList []
+2020-12-01 23:35:29,519 - __main__ - INFO - caseFile E:\uiautotest\testCase
+2020-12-01 23:35:29,519 - __main__ - INFO - test01case.py
+2020-12-01 23:35:29,606 - __main__ - INFO - suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-01 23:35:29,606 - __main__ - INFO - [Errno 2] No such file or directory: 'E:\\uiautotest\\result\\report.html'
+2020-12-01 23:35:29,606 - __main__ - INFO - *********TEST END*********
+2020-12-01 23:35:29,606 - __main__ - INFO - 邮件发送开关配置关闭，请打开开关后可正常自动发送测试报告
+2020-12-01 23:36:29,124 - __main__ - INFO - E:\uiautotest\result
+2020-12-01 23:36:29,124 - __main__ - INFO - resultPath E:\uiautotest\result\report.html
+2020-12-01 23:36:29,124 - __main__ - INFO - caseListFile E:\uiautotest\caselist.txt
+2020-12-01 23:36:29,124 - __main__ - INFO - caseList []
+2020-12-01 23:36:29,124 - __main__ - INFO - caseFile E:\uiautotest\testCase
+2020-12-01 23:36:29,124 - __main__ - INFO - test01case.py
+2020-12-01 23:36:29,208 - __main__ - INFO - suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-01 23:36:29,208 - __main__ - INFO - [Errno 2] No such file or directory: 'E:\\uiautotest\\result\\report.html'
+2020-12-01 23:36:29,208 - __main__ - INFO - *********TEST END*********
+2020-12-01 23:36:29,208 - __main__ - INFO - 邮件发送开关配置关闭，请打开开关后可正常自动发送测试报告
+2020-12-01 23:38:24,333 - __main__ - INFO - 50-E:\uiautotest\result
+2020-12-01 23:38:24,333 - __main__ - INFO - 68-resultPath E:\uiautotest\result\report.html
+2020-12-01 23:38:24,333 - __main__ - INFO - 69-caseListFile E:\uiautotest\caselist.txt
+2020-12-01 23:38:24,333 - __main__ - INFO - 70-caseList []
+2020-12-01 23:38:24,334 - __main__ - INFO - 71-caseFile E:\uiautotest\testCase
+2020-12-01 23:38:24,334 - __main__ - INFO - 100-test01case.py
+2020-12-01 23:38:24,417 - __main__ - INFO - 105-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test01case.TestBaiduCase testMethod=test_001_case>]>]>]>]
+2020-12-01 23:38:24,417 - __main__ - INFO - 142-[Errno 2] No such file or directory: 'E:\\uiautotest\\result\\report.html'
+2020-12-01 23:38:24,417 - __main__ - INFO - 145-*********TEST END*********
+2020-12-01 23:38:24,417 - __main__ - INFO - 152-邮件发送开关配置关闭，请打开开关后可正常自动发送测试报告

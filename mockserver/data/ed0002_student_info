@@ -1,0 +1,12 @@
+res_code: 0
+res_msg: success
+data:
+- username: Mike
+  age: 18
+  sex: F
+- username: Lucy
+  age: 19
+  sex: M
+- username: LiMing
+  age: 17
+  sex: F

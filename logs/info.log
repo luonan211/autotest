@@ -1,0 +1,766 @@
+2021-03-28 22:52:31,645 - __main__ - INFO - 50-E:\uiautotest\report
+2021-03-28 22:52:31,652 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2021-03-28 22:52:31,652 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2021-03-28 22:52:31,652 - __main__ - INFO - 68-caseList []
+2021-03-28 22:52:31,653 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2021-03-28 22:52:31,654 - __main__ - INFO - 98-test002case.py
+2021-03-28 22:52:32,654 - test002case - INFO - 25-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 22:52:32,669 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 22:52:32,673 - __main__ - INFO - 98-test003case.py
+2021-03-28 22:52:32,709 - test003case - INFO - 24-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 22:52:32,710 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 22:52:32,710 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 22:52:32,710 - test002case - INFO - 62-user_info_v1测试开始前准备
+2021-03-28 22:52:32,710 - test002case - INFO - 64-案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2021-03-28 22:52:32,710 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 22:52:32,710 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 22:52:32,724 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 22:52:34,757 - test002case - INFO - 67-user_info_v1测试结束，输出log完结
+
+2021-03-28 22:52:34,914 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 22:52:34,915 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 22:52:34,915 - test002case - INFO - 62-user_info_v2测试开始前准备
+2021-03-28 22:52:34,915 - test002case - INFO - 64-案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2021-03-28 22:52:34,916 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 22:52:34,916 - test002case - INFO - 82-接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2021-03-28 22:52:34,920 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 22:52:36,932 - test002case - INFO - 67-user_info_v2测试结束，输出log完结
+
+2021-03-28 22:52:36,936 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 22:52:36,937 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 22:52:36,937 - test002case - INFO - 62-user_info_v3测试开始前准备
+2021-03-28 22:52:36,938 - test002case - INFO - 64-案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2021-03-28 22:52:36,938 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 22:52:36,938 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 22:52:36,942 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 22:52:38,956 - test002case - INFO - 67-user_info_v3测试结束，输出log完结
+
+2021-03-28 22:52:38,960 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 22:52:38,960 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 22:52:38,961 - test003case - INFO - 59-user_info_v1**************************测试开始前准备***************************
+2021-03-28 22:52:38,969 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 22:52:38,969 - test003case - INFO - 68-请求方法：get
+2021-03-28 22:52:38,969 - test003case - INFO - 69-请求参数：
+2021-03-28 22:52:38,974 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 22:52:40,986 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 22:52:40,991 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 22:52:40,991 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 22:52:40,991 - test003case - INFO - 59-user_info_v2**************************测试开始前准备***************************
+2021-03-28 22:52:41,005 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 22:52:41,005 - test003case - INFO - 68-请求方法：get
+2021-03-28 22:52:41,005 - test003case - INFO - 69-请求参数：username=luonan&passwd=mima123&city=shanghai
+2021-03-28 22:52:41,011 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 22:52:43,021 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 22:52:43,026 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 22:52:43,026 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 22:52:43,027 - test003case - INFO - 59-user_info_v3**************************测试开始前准备***************************
+2021-03-28 22:52:43,037 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 22:52:43,037 - test003case - INFO - 68-请求方法：post
+2021-03-28 22:52:43,038 - test003case - INFO - 69-请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}
+2021-03-28 22:52:43,043 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 22:52:45,052 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 22:52:45,053 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 22:52:45,053 - __main__ - INFO - 143-*********TEST END*********
+2021-03-28 22:52:46,961 - controler.sendemail - INFO - 53-邮件发送成功
+2021-03-28 23:02:21,372 - __main__ - INFO - 50-E:\uiautotest\report
+2021-03-28 23:02:21,372 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2021-03-28 23:02:21,372 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2021-03-28 23:02:21,372 - __main__ - INFO - 68-caseList []
+2021-03-28 23:02:21,372 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2021-03-28 23:02:21,372 - __main__ - INFO - 98-test002case.py
+2021-03-28 23:02:22,151 - test002case - INFO - 25-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:02:22,152 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:02:22,155 - __main__ - INFO - 98-test003case.py
+2021-03-28 23:02:22,187 - test003case - INFO - 24-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:02:22,190 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:02:22,190 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:02:22,190 - test002case - INFO - 62-user_info_v1测试开始前准备
+2021-03-28 23:02:22,190 - test002case - INFO - 64-案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2021-03-28 23:02:22,194 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:02:22,194 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:02:22,208 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:02:22,250 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:02:22,255 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:02:22,255 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:02:22,256 - test002case - INFO - 90-测试结果：None
+2021-03-28 23:02:22,256 - test002case - INFO - 67-user_info_v1测试结束，输出log完结
+
+2021-03-28 23:02:22,257 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:02:22,257 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:02:22,257 - test002case - INFO - 62-user_info_v2测试开始前准备
+2021-03-28 23:02:22,258 - test002case - INFO - 64-案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2021-03-28 23:02:22,258 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:02:22,258 - test002case - INFO - 82-接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2021-03-28 23:02:22,261 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:02:22,290 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 74
+2021-03-28 23:02:22,291 - controler.getresponse - INFO - 25-请求的response:{'city': 'shanghai', 'passwd': 'mima123', 'username': 'luonan'}
+2021-03-28 23:02:22,291 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:02:22,292 - test002case - INFO - 67-user_info_v2测试结束，输出log完结
+
+2021-03-28 23:02:22,292 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:02:22,292 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:02:22,292 - test002case - INFO - 62-user_info_v3测试开始前准备
+2021-03-28 23:02:22,292 - test002case - INFO - 64-案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2021-03-28 23:02:22,292 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:02:22,292 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:02:22,299 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:02:22,305 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:02:22,307 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:02:22,307 - test002case - INFO - 85-接口返回数据：<class 'NoneType'>
+2021-03-28 23:02:22,308 - test002case - INFO - 67-user_info_v3测试结束，输出log完结
+
+2021-03-28 23:02:22,308 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:02:22,309 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:02:22,309 - test003case - INFO - 59-user_info_v1**************************测试开始前准备***************************
+2021-03-28 23:02:22,319 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:02:22,319 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:02:22,319 - test003case - INFO - 69-请求参数：
+2021-03-28 23:02:22,324 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:02:22,340 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:02:22,342 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:02:22,342 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:02:22,343 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:02:22,343 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:02:22,343 - test003case - INFO - 59-user_info_v2**************************测试开始前准备***************************
+2021-03-28 23:02:22,351 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:02:22,356 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:02:22,356 - test003case - INFO - 69-请求参数：username=luonan&passwd=mima123&city=shanghai
+2021-03-28 23:02:22,360 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:02:22,368 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 3
+2021-03-28 23:02:22,369 - controler.getresponse - INFO - 25-请求的response:{}
+2021-03-28 23:02:22,369 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:02:22,370 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:02:22,371 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:02:22,371 - test003case - INFO - 59-user_info_v3**************************测试开始前准备***************************
+2021-03-28 23:02:22,383 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:02:22,383 - test003case - INFO - 68-请求方法：post
+2021-03-28 23:02:22,384 - test003case - INFO - 69-请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}
+2021-03-28 23:02:22,389 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:02:22,394 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:02:22,396 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:02:22,396 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:02:22,397 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:02:22,413 - __main__ - INFO - 143-*********TEST END*********
+2021-03-28 23:02:24,053 - controler.sendemail - INFO - 53-邮件发送成功
+2021-03-28 23:08:25,324 - __main__ - INFO - 50-E:\uiautotest\report
+2021-03-28 23:08:25,324 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2021-03-28 23:08:25,325 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2021-03-28 23:08:25,325 - __main__ - INFO - 68-caseList []
+2021-03-28 23:08:25,325 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2021-03-28 23:08:25,326 - __main__ - INFO - 98-test002case.py
+2021-03-28 23:08:25,850 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: GetExcelInfo.get_excel_info took 17.164ms
+2021-03-28 23:08:25,850 - test002case - INFO - 25-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:08:25,857 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:08:25,858 - __main__ - INFO - 98-test003case.py
+2021-03-28 23:08:25,888 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: GetExcelInfo.get_excel_info took 18.487ms
+2021-03-28 23:08:25,888 - test003case - INFO - 24-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:08:25,891 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:08:25,895 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:08:25,896 - test002case - INFO - 62-user_info_v1测试开始前准备
+2021-03-28 23:08:25,896 - test002case - INFO - 64-案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2021-03-28 23:08:25,896 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:08:25,897 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:08:25,910 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:08:25,938 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:08:25,940 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:08:25,940 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 43.679ms
+2021-03-28 23:08:25,941 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:08:25,941 - test002case - INFO - 90-测试结果：None
+2021-03-28 23:08:25,941 - test002case - INFO - 67-user_info_v1测试结束，输出log完结
+
+2021-03-28 23:08:25,941 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:08:25,941 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:08:25,941 - test002case - INFO - 62-user_info_v2测试开始前准备
+2021-03-28 23:08:25,941 - test002case - INFO - 64-案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2021-03-28 23:08:25,941 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:08:25,941 - test002case - INFO - 82-接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2021-03-28 23:08:25,947 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:08:25,954 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 74
+2021-03-28 23:08:25,956 - controler.getresponse - INFO - 25-请求的response:{'city': 'shanghai', 'passwd': 'mima123', 'username': 'luonan'}
+2021-03-28 23:08:25,957 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 14.517ms
+2021-03-28 23:08:25,957 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:08:25,957 - test002case - INFO - 67-user_info_v2测试结束，输出log完结
+
+2021-03-28 23:08:25,959 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:08:25,959 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:08:25,959 - test002case - INFO - 62-user_info_v3测试开始前准备
+2021-03-28 23:08:25,960 - test002case - INFO - 64-案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2021-03-28 23:08:25,960 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:08:25,960 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:08:25,967 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:08:25,973 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:08:25,975 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:08:25,975 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 15.164ms
+2021-03-28 23:08:25,976 - test002case - INFO - 85-接口返回数据：<class 'NoneType'>
+2021-03-28 23:08:25,976 - test002case - INFO - 67-user_info_v3测试结束，输出log完结
+
+2021-03-28 23:08:25,977 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:08:25,978 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:08:25,978 - test003case - INFO - 59-user_info_v1**************************测试开始前准备***************************
+2021-03-28 23:08:25,989 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:08:25,990 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:08:25,990 - test003case - INFO - 69-请求参数：
+2021-03-28 23:08:25,990 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:08:26,010 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:08:26,011 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:08:26,011 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 20.964ms
+2021-03-28 23:08:26,011 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:08:26,011 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:08:26,011 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:08:26,011 - test003case - INFO - 59-user_info_v2**************************测试开始前准备***************************
+2021-03-28 23:08:26,022 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:08:26,022 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:08:26,022 - test003case - INFO - 69-请求参数：username=luonan&passwd=mima123&city=shanghai
+2021-03-28 23:08:26,029 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:08:26,035 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 3
+2021-03-28 23:08:26,036 - controler.getresponse - INFO - 25-请求的response:{}
+2021-03-28 23:08:26,036 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 14.821ms
+2021-03-28 23:08:26,038 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:08:26,039 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:08:26,039 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:08:26,039 - test003case - INFO - 59-user_info_v3**************************测试开始前准备***************************
+2021-03-28 23:08:26,049 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:08:26,050 - test003case - INFO - 68-请求方法：post
+2021-03-28 23:08:26,050 - test003case - INFO - 69-请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}
+2021-03-28 23:08:26,053 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:08:26,061 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:08:26,063 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:08:26,063 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 12.257ms
+2021-03-28 23:08:26,063 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:08:26,064 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:08:26,065 - __main__ - INFO - 143-*********TEST END*********
+2021-03-28 23:08:27,579 - controler.sendemail - INFO - 53-邮件发送成功
+2021-03-28 23:12:27,871 - __main__ - INFO - 50-E:\uiautotest\report
+2021-03-28 23:12:27,871 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2021-03-28 23:12:27,871 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2021-03-28 23:12:27,871 - __main__ - INFO - 68-caseList []
+2021-03-28 23:12:27,871 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2021-03-28 23:12:27,873 - __main__ - INFO - 98-test002case.py
+2021-03-28 23:12:28,359 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: GetExcelInfo.get_excel_info took 29.576ms
+2021-03-28 23:12:28,359 - test002case - INFO - 25-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:12:28,362 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:12:28,362 - __main__ - INFO - 98-test003case.py
+2021-03-28 23:12:28,398 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: GetExcelInfo.get_excel_info took 21.520ms
+2021-03-28 23:12:28,398 - test003case - INFO - 24-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:12:28,401 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:12:28,403 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:12:28,403 - test002case - INFO - 62-user_info_v1测试开始前准备
+2021-03-28 23:12:28,404 - test002case - INFO - 64-案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2021-03-28 23:12:28,404 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:12:28,404 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:12:28,418 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:12:28,443 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:12:28,447 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:12:28,448 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 44.125ms
+2021-03-28 23:12:28,448 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:12:28,449 - test002case - INFO - 90-测试结果：None
+2021-03-28 23:12:28,449 - test002case - INFO - 67-user_info_v1测试结束，输出log完结
+
+2021-03-28 23:12:28,449 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:12:28,450 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:12:28,450 - test002case - INFO - 62-user_info_v2测试开始前准备
+2021-03-28 23:12:28,450 - test002case - INFO - 64-案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2021-03-28 23:12:28,450 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:12:28,451 - test002case - INFO - 82-接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2021-03-28 23:12:28,456 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:12:28,461 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 74
+2021-03-28 23:12:28,464 - controler.getresponse - INFO - 25-请求的response:{'city': 'shanghai', 'passwd': 'mima123', 'username': 'luonan'}
+2021-03-28 23:12:28,464 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 12.537ms
+2021-03-28 23:12:28,464 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:12:28,465 - test002case - INFO - 67-user_info_v2测试结束，输出log完结
+
+2021-03-28 23:12:28,466 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:12:28,466 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:12:28,467 - test002case - INFO - 62-user_info_v3测试开始前准备
+2021-03-28 23:12:28,467 - test002case - INFO - 64-案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2021-03-28 23:12:28,467 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:12:28,468 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:12:28,470 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:12:28,477 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:12:28,479 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:12:28,479 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 11.133ms
+2021-03-28 23:12:28,480 - test002case - INFO - 85-接口返回数据：<class 'NoneType'>
+2021-03-28 23:12:28,480 - test002case - INFO - 67-user_info_v3测试结束，输出log完结
+
+2021-03-28 23:12:28,481 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:12:28,481 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:12:28,481 - test003case - INFO - 59-user_info_v1**************************测试开始前准备***************************
+2021-03-28 23:12:28,490 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:12:28,490 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:12:28,490 - test003case - INFO - 69-请求参数：
+2021-03-28 23:12:28,498 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:12:28,514 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:12:28,519 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:12:28,520 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 29.742ms
+2021-03-28 23:12:28,520 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:12:28,520 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:12:28,521 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:12:28,521 - test003case - INFO - 59-user_info_v2**************************测试开始前准备***************************
+2021-03-28 23:12:28,532 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:12:28,532 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:12:28,532 - test003case - INFO - 69-请求参数：username=luonan&passwd=mima123&city=shanghai
+2021-03-28 23:12:28,536 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:12:28,543 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 3
+2021-03-28 23:12:28,545 - controler.getresponse - INFO - 25-请求的response:{}
+2021-03-28 23:12:28,545 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 13.389ms
+2021-03-28 23:12:28,545 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:12:28,546 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:12:28,548 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:12:28,548 - test003case - INFO - 59-user_info_v3**************************测试开始前准备***************************
+2021-03-28 23:12:28,560 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:12:28,561 - test003case - INFO - 68-请求方法：post
+2021-03-28 23:12:28,561 - test003case - INFO - 69-请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}
+2021-03-28 23:12:28,566 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:12:28,572 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:12:28,574 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:12:28,574 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 12.959ms
+2021-03-28 23:12:28,575 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:12:28,576 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:12:28,578 - __main__ - INFO - 143-*********TEST END*********
+2021-03-28 23:12:30,136 - controler.sendemail - INFO - 53-邮件发送成功
+2021-03-28 23:15:14,460 - __main__ - INFO - 50-E:\uiautotest\report
+2021-03-28 23:15:14,465 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2021-03-28 23:15:14,465 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2021-03-28 23:15:14,465 - __main__ - INFO - 68-caseList []
+2021-03-28 23:15:14,466 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2021-03-28 23:15:14,466 - __main__ - INFO - 98-test002case.py
+2021-03-28 23:15:14,865 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: GetExcelInfo.get_excel_info took 20.101ms
+2021-03-28 23:15:14,865 - test002case - INFO - 25-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:15:14,869 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:15:14,869 - __main__ - INFO - 98-test003case.py
+2021-03-28 23:15:14,900 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: GetExcelInfo.get_excel_info took 17.695ms
+2021-03-28 23:15:14,901 - test003case - INFO - 24-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:15:14,904 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:15:14,906 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:15:14,906 - test002case - INFO - 62-user_info_v1测试开始前准备
+2021-03-28 23:15:14,907 - test002case - INFO - 64-案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2021-03-28 23:15:14,907 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:15:14,907 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:15:14,921 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:15:14,948 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:15:14,951 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:15:14,951 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 44.101ms
+2021-03-28 23:15:14,952 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:15:14,952 - test002case - INFO - 90-测试结果：None
+2021-03-28 23:15:14,952 - test002case - INFO - 67-user_info_v1测试结束，输出log完结
+
+2021-03-28 23:15:14,953 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:15:14,953 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:15:14,954 - test002case - INFO - 62-user_info_v2测试开始前准备
+2021-03-28 23:15:14,954 - test002case - INFO - 64-案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2021-03-28 23:15:14,955 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:15:14,955 - test002case - INFO - 82-接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2021-03-28 23:15:14,959 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:15:14,967 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 74
+2021-03-28 23:15:14,969 - controler.getresponse - INFO - 25-请求的response:{'city': 'shanghai', 'passwd': 'mima123', 'username': 'luonan'}
+2021-03-28 23:15:14,970 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 14.989ms
+2021-03-28 23:15:14,970 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:15:14,971 - test002case - INFO - 67-user_info_v2测试结束，输出log完结
+
+2021-03-28 23:15:14,972 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:15:14,973 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:15:14,973 - test002case - INFO - 62-user_info_v3测试开始前准备
+2021-03-28 23:15:14,973 - test002case - INFO - 64-案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2021-03-28 23:15:14,973 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:15:14,974 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:15:14,977 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:15:14,984 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:15:14,986 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:15:14,986 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 12.687ms
+2021-03-28 23:15:14,986 - test002case - INFO - 85-接口返回数据：<class 'NoneType'>
+2021-03-28 23:15:14,987 - test002case - INFO - 67-user_info_v3测试结束，输出log完结
+
+2021-03-28 23:15:14,988 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:15:14,988 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:15:14,989 - test003case - INFO - 59-user_info_v1**************************测试开始前准备***************************
+2021-03-28 23:15:15,005 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:15:15,005 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:15:15,006 - test003case - INFO - 69-请求参数：
+2021-03-28 23:15:15,010 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:15:15,027 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:15:15,029 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:15:15,029 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 22.998ms
+2021-03-28 23:15:15,030 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:15:15,030 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:15:15,030 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:15:15,031 - test003case - INFO - 59-user_info_v2**************************测试开始前准备***************************
+2021-03-28 23:15:15,042 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:15:15,043 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:15:15,043 - test003case - INFO - 69-请求参数：username=luonan&passwd=mima123&city=shanghai
+2021-03-28 23:15:15,047 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:15:15,055 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 3
+2021-03-28 23:15:15,056 - controler.getresponse - INFO - 25-请求的response:{}
+2021-03-28 23:15:15,056 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 13.371ms
+2021-03-28 23:15:15,057 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:15:15,058 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:15:15,058 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:15:15,058 - test003case - INFO - 59-user_info_v3**************************测试开始前准备***************************
+2021-03-28 23:15:15,077 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:15:15,078 - test003case - INFO - 68-请求方法：post
+2021-03-28 23:15:15,078 - test003case - INFO - 69-请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}
+2021-03-28 23:15:15,084 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:15:15,093 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:15:15,095 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:15:15,096 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 16.865ms
+2021-03-28 23:15:15,096 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:15:15,097 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:15:15,099 - __main__ - INFO - 143-*********TEST END*********
+2021-03-28 23:15:16,800 - controler.sendemail - INFO - 53-邮件发送成功
+2021-03-28 23:21:25,425 - __main__ - INFO - 50-E:\uiautotest\report
+2021-03-28 23:21:25,425 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2021-03-28 23:21:25,425 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2021-03-28 23:21:25,425 - __main__ - INFO - 68-caseList []
+2021-03-28 23:21:25,425 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2021-03-28 23:21:25,427 - __main__ - INFO - 98-test002case.py
+2021-03-28 23:21:25,904 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: GetExcelInfo.get_excel_info took 23.350ms
+2021-03-28 23:21:25,904 - test002case - INFO - 25-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:21:25,910 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:21:25,910 - __main__ - INFO - 98-test003case.py
+2021-03-28 23:21:25,941 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: GetExcelInfo.get_excel_info took 20.402ms
+2021-03-28 23:21:25,941 - test003case - INFO - 24-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:21:25,949 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:21:25,951 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:21:25,951 - test002case - INFO - 62-user_info_v1测试开始前准备
+2021-03-28 23:21:25,952 - test002case - INFO - 64-案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2021-03-28 23:21:25,952 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:21:25,952 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:21:25,964 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:21:25,994 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:21:25,995 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:21:25,995 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 42.775ms
+2021-03-28 23:21:25,995 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:21:25,998 - test002case - INFO - 90-测试结果：None
+2021-03-28 23:21:25,998 - test002case - INFO - 67-user_info_v1测试结束，输出log完结
+
+2021-03-28 23:21:25,998 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:21:25,998 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:21:25,999 - test002case - INFO - 62-user_info_v2测试开始前准备
+2021-03-28 23:21:25,999 - test002case - INFO - 64-案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2021-03-28 23:21:25,999 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:21:26,000 - test002case - INFO - 82-接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2021-03-28 23:21:26,003 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:21:26,011 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 74
+2021-03-28 23:21:26,012 - controler.getresponse - INFO - 25-请求的response:{'city': 'shanghai', 'passwd': 'mima123', 'username': 'luonan'}
+2021-03-28 23:21:26,012 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 12.601ms
+2021-03-28 23:21:26,012 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:21:26,012 - test002case - INFO - 67-user_info_v2测试结束，输出log完结
+
+2021-03-28 23:21:26,012 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:21:26,012 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:21:26,012 - test002case - INFO - 62-user_info_v3测试开始前准备
+2021-03-28 23:21:26,012 - test002case - INFO - 64-案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2021-03-28 23:21:26,012 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:21:26,012 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:21:26,020 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:21:26,026 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:21:26,028 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:21:26,028 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 11.140ms
+2021-03-28 23:21:26,029 - test002case - INFO - 85-接口返回数据：<class 'NoneType'>
+2021-03-28 23:21:26,029 - test002case - INFO - 67-user_info_v3测试结束，输出log完结
+
+2021-03-28 23:21:26,030 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:21:26,030 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:21:26,031 - test003case - INFO - 59-user_info_v1**************************测试开始前准备***************************
+2021-03-28 23:21:26,041 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:21:26,041 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:21:26,041 - test003case - INFO - 69-请求参数：
+2021-03-28 23:21:26,046 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:21:26,063 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:21:26,065 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:21:26,066 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 25.558ms
+2021-03-28 23:21:26,066 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:21:26,066 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:21:26,067 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:21:26,067 - test003case - INFO - 59-user_info_v2**************************测试开始前准备***************************
+2021-03-28 23:21:26,079 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:21:26,079 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:21:26,080 - test003case - INFO - 69-请求参数：username=luonan&passwd=mima123&city=shanghai
+2021-03-28 23:21:26,081 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:21:26,090 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 3
+2021-03-28 23:21:26,092 - controler.getresponse - INFO - 25-请求的response:{}
+2021-03-28 23:21:26,092 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 12.018ms
+2021-03-28 23:21:26,093 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:21:26,094 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:21:26,094 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:21:26,094 - test003case - INFO - 59-user_info_v3**************************测试开始前准备***************************
+2021-03-28 23:21:26,110 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:21:26,111 - test003case - INFO - 68-请求方法：post
+2021-03-28 23:21:26,111 - test003case - INFO - 69-请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}
+2021-03-28 23:21:26,118 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:21:26,126 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:21:26,127 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:21:26,127 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 16.370ms
+2021-03-28 23:21:26,128 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:21:26,128 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:21:26,131 - __main__ - INFO - 143-*********TEST END*********
+2021-03-28 23:21:27,754 - controler.sendemail - INFO - 53-邮件发送成功
+2021-03-28 23:22:37,050 - __main__ - INFO - 50-E:\uiautotest\report
+2021-03-28 23:22:37,050 - __main__ - INFO - 66-resultPath E:\uiautotest\report\report.html
+2021-03-28 23:22:37,051 - __main__ - INFO - 67-caseListFile E:\uiautotest\caselist.txt
+2021-03-28 23:22:37,051 - __main__ - INFO - 68-caseList []
+2021-03-28 23:22:37,051 - __main__ - INFO - 69-caseFile E:\uiautotest\testCase
+2021-03-28 23:22:37,052 - __main__ - INFO - 98-test002case.py
+2021-03-28 23:22:37,544 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: GetExcelInfo.get_excel_info took 22.218ms
+2021-03-28 23:22:37,544 - test002case - INFO - 25-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:22:37,548 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:22:37,549 - __main__ - INFO - 98-test003case.py
+2021-03-28 23:22:37,579 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: GetExcelInfo.get_excel_info took 19.079ms
+2021-03-28 23:22:37,580 - test003case - INFO - 24-测试数据:[['user_info_v1', '/user-app/api/v1/get_user_info', '', 'get'], ['user_info_v2', '/user-app/api/v2/get_user_info', 'username=luonan&passwd=mima123&city=shanghai', 'get'], ['user_info_v3', '/user-app/api/v3/get_user_info', '{\n  "city": "shanghai",\n  "passwd": "mima123",\n  "username": "luonan"\n}', 'post']]
+2021-03-28 23:22:37,581 - __main__ - INFO - 103-suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_0 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_1 testMethod=test01case>]>, <unittest.suite.TestSuite tests=[<paramunittest.TestUserInfo_2 testMethod=test01case>]>]>]>]
+2021-03-28 23:22:37,581 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:22:37,581 - test002case - INFO - 62-user_info_v1测试开始前准备
+2021-03-28 23:22:37,581 - test002case - INFO - 64-案例名称：user_info_v1, 接口路径：/user-app/api/v1/get_user_info, 请求参数：, 请求方法：get 
+2021-03-28 23:22:37,585 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:22:37,585 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:22:37,598 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:22:37,622 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:22:37,625 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:22:37,625 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 38.588ms
+2021-03-28 23:22:37,626 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:22:37,626 - test002case - INFO - 90-测试结果：None
+2021-03-28 23:22:37,626 - test002case - INFO - 67-user_info_v1测试结束，输出log完结
+
+2021-03-28 23:22:37,626 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:22:37,627 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:22:37,627 - test002case - INFO - 62-user_info_v2测试开始前准备
+2021-03-28 23:22:37,628 - test002case - INFO - 64-案例名称：user_info_v2, 接口路径：/user-app/api/v2/get_user_info, 请求参数：username=luonan&passwd=mima123&city=shanghai, 请求方法：get 
+2021-03-28 23:22:37,628 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:22:37,628 - test002case - INFO - 82-接口请求参数data2：{'username': ['luonan'], 'passwd': ['mima123'], 'city': ['shanghai']}
+2021-03-28 23:22:37,632 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:22:37,637 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 74
+2021-03-28 23:22:37,640 - controler.getresponse - INFO - 25-请求的response:{'city': 'shanghai', 'passwd': 'mima123', 'username': 'luonan'}
+2021-03-28 23:22:37,640 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 11.990ms
+2021-03-28 23:22:37,640 - test002case - INFO - 85-接口返回数据：<class 'dict'>
+2021-03-28 23:22:37,641 - test002case - INFO - 67-user_info_v2测试结束，输出log完结
+
+2021-03-28 23:22:37,641 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:22:37,641 - test002case - INFO - 55-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:22:37,641 - test002case - INFO - 62-user_info_v3测试开始前准备
+2021-03-28 23:22:37,641 - test002case - INFO - 64-案例名称：user_info_v3, 接口路径：/user-app/api/v3/get_user_info, 请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}, 请求方法：post 
+2021-03-28 23:22:37,641 - test002case - INFO - 80-接口URL：http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:22:37,643 - test002case - INFO - 82-接口请求参数data2：{}
+2021-03-28 23:22:37,647 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:22:37,652 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:22:37,653 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:22:37,653 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 9.828ms
+2021-03-28 23:22:37,653 - test002case - INFO - 85-接口返回数据：<class 'NoneType'>
+2021-03-28 23:22:37,653 - test002case - INFO - 67-user_info_v3测试结束，输出log完结
+
+2021-03-28 23:22:37,653 - test002case - INFO - 59-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:22:37,653 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:22:37,653 - test003case - INFO - 59-user_info_v1**************************测试开始前准备***************************
+2021-03-28 23:22:37,667 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v1/get_user_info
+2021-03-28 23:22:37,667 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:22:37,667 - test003case - INFO - 69-请求参数：
+2021-03-28 23:22:37,670 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:22:37,685 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v1/get_user_info HTTP/1.1" 200 291
+2021-03-28 23:22:37,686 - controler.getresponse - INFO - 25-请求的response:{'data': [{'age': 18, 'sex': 'F', 'username': 'Mike'}, {'age': 19, 'sex': 'M', 'username': 'Lucy'}, {'age': 17, 'sex': 'F', 'username': 'LiMing'}], 'res_code': 0, 'res_msg': 'success'}
+2021-03-28 23:22:37,688 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 19.789ms
+2021-03-28 23:22:37,688 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:22:37,688 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:22:37,688 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:22:37,689 - test003case - INFO - 59-user_info_v2**************************测试开始前准备***************************
+2021-03-28 23:22:37,697 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v2/get_user_info
+2021-03-28 23:22:37,698 - test003case - INFO - 68-请求方法：get
+2021-03-28 23:22:37,698 - test003case - INFO - 69-请求参数：username=luonan&passwd=mima123&city=shanghai
+2021-03-28 23:22:37,699 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:22:37,703 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "GET /user-app/api/v2/get_user_info HTTP/1.1" 200 3
+2021-03-28 23:22:37,705 - controler.getresponse - INFO - 25-请求的response:{}
+2021-03-28 23:22:37,705 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 6.969ms
+2021-03-28 23:22:37,705 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:22:37,705 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:22:37,706 - test003case - INFO - 52-
+=======测试类E:/uiautotest/runall.py开始==========
+2021-03-28 23:22:37,706 - test003case - INFO - 59-user_info_v3**************************测试开始前准备***************************
+2021-03-28 23:22:37,710 - test003case - INFO - 67-urls :http://127.0.0.1:50050/user-app/api/v3/get_user_info
+2021-03-28 23:22:37,710 - test003case - INFO - 68-请求方法：post
+2021-03-28 23:22:37,710 - test003case - INFO - 69-请求参数：{
+  "city": "shanghai",
+  "passwd": "mima123",
+  "username": "luonan"
+}
+2021-03-28 23:22:37,714 - urllib3.connectionpool - DEBUG - 231-Starting new HTTP connection (1): 127.0.0.1:50050
+2021-03-28 23:22:37,718 - urllib3.connectionpool - DEBUG - 461-http://127.0.0.1:50050 "POST /user-app/api/v3/get_user_info HTTP/1.1" 200 5
+2021-03-28 23:22:37,719 - controler.getresponse - INFO - 31-请求的response:None
+2021-03-28 23:22:37,719 - toolkit.time_measure - INFO - 26-[TIME MEASURE] execute function: Request.request_all took 9.166ms
+2021-03-28 23:22:37,719 - test003case - INFO - 62-*******************测试结束，输出log完结******************
+
+
+2021-03-28 23:22:37,720 - test003case - INFO - 56-
+======测试类E:/uiautotest/runall.py结束======
+2021-03-28 23:22:37,721 - __main__ - INFO - 143-*********TEST END*********
+2021-03-28 23:22:39,374 - controler.sendemail - INFO - 53-邮件发送成功

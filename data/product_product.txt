@@ -1,0 +1,4 @@
+INSERT INTO BOBMYDATA.PRODUCT_PRODUCT (create_by, create_at, update_by, update_at, id, product_name, product_desc, owner)VALUES ('罗楠', '2020-11-14 23:11:14', 'luonan', '2020-11-15 15:54:04', 1, '理财机器人', '理财机器人是一个任务型的机器人，能够根据用户画像自动推荐产品', '罗楠');
+INSERT INTO BOBMYDATA.PRODUCT_PRODUCT (create_by, create_at, update_by, update_at, id, product_name, product_desc, owner)VALUES ('sys', '2020-11-14 23:12:34', '罗楠', '2020-11-14 23:12:34', 2, '外呼机器人', '外呼机器人主要作用是对话呼出推荐活动等', '罗楠');
+INSERT INTO BOBMYDATA.PRODUCT_PRODUCT (create_by, create_at, update_by, update_at, id, product_name, product_desc, owner)VALUES ('sys', '2020-11-14 23:13:39', '罗楠', '2020-11-14 23:13:39', 3, '客服机器人', '提供闲聊功能，并为其他机器人兜底', '罗楠');
+INSERT INTO BOBMYDATA.PRODUCT_PRODUCT (create_by, create_at, update_by, update_at, id, product_name, product_desc, owner)VALUES ('sys', '2020-11-14 23:15:16', '罗楠', '2020-11-14 23:15:16', 4, '断点机器人', '前端埋点，实时捕获用户断点数据。并把数据同步给外呼或者理财机器人做承接', '罗楠');

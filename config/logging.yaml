@@ -1,0 +1,37 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+        simple:
+            format: "%(asctime)s - %(name)s - %(levelname)s - %(lineno)s-%(message)s"
+handlers:
+    console:
+            class: logging.StreamHandler
+            level: INFO
+            formatter: simple
+            stream: ext://sys.stdout
+    file:
+            class: toolkit.custom_logging_handle.AUTOTimeRotatingFileHandler
+            level: DEBUG
+            formatter: simple
+            when: midnight
+            suffix: "%Y-%m-%d.log"
+            filename: ./logs/info.log
+#            maxBytes: 10485760
+            backupCount: 30
+            encoding: utf8
+    error_file:
+            class: logging.handlers.RotatingFileHandler
+            level: ERROR
+            formatter: simple
+            filename: ./logs/errors.log
+            maxBytes: 10485760
+            backupCount: 20
+            encoding: utf8
+loggers:
+    uiautotest:
+            level: DEBUG
+            handlers: [console,file,error_file]
+            propagate: no
+root:
+    level: DEBUG
+    handlers: [console,file,error_file]
